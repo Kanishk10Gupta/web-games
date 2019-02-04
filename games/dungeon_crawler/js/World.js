@@ -68,7 +68,6 @@ function warriorWorldHandling(whichWarrior) {
 		case TILE_DOOR:
 			if(whichWarrior.key > 0){
 				whichWarrior.key--;
-				document.getElementById("debugText").innerHTML = "Keys : "+whichWarrior.key;
 				worldGrid[currentTile] = TILE_GROUND;
 			}
 			if(whichWarrior.keyHeld_North) {
@@ -86,7 +85,6 @@ function warriorWorldHandling(whichWarrior) {
 			break;
 		case TILE_KEY:
 			whichWarrior.key++;
-			document.getElementById("debugText").innerHTML = "Keys : "+whichWarrior.key;
 			worldGrid[currentTile] = TILE_GROUND;
 			break;
 		case TILE_GROUND:

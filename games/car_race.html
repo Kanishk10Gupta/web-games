@@ -1,23 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-	<meta content="utf-8" http-equiv="encoding">
-	<title>Car Race</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<body>
-<h2>Car Race</h2>
-<a href="/">Home</a><br/>
-<canvas id="gameCanvas" width="800" height="600"></canvas>
+    <title>Car Race</title>
 
-<script src="car_race/js/GraphicsCommon.js"></script>
-<script src="car_race/js/ImageLoading.js"></script>
-<script src="car_race/js/Car.js"></script>
-<script src="car_race/js/Track.js"></script>
-<script src="car_race/js/Input.js"></script>
-<script src="car_race/js/Main.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="/cover.css" rel="stylesheet">
+  </head>
 
-</body>
+  <body class="text-center">
+
+    <div class="d-flex h-100 p-3 mx-auto flex-column">
+      <header class="cover-container mx-auto masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Car Race</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link" href="/index.html">Home</a>
+            <a class="nav-link" href="/games/dungeon_crawler.html">Dungeon Crawler</a>
+            <a class="nav-link active" href="/games/car_race.html">Car Race</a>
+            <a class="nav-link" href="/games/bricks.html">Bricks</a>
+          </nav>
+        </div>
+      </header>
+
+      <main role="main"  class="game-container inner cover">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+      </main>
+
+      <footer class="cover-container mastfoot mt-auto">
+        <div class="inner">
+          
+        </div>
+      </footer>
+    </div>
+
+	<script src="car_race/js/GraphicsCommon.js"></script>
+	<script src="car_race/js/ImageLoading.js"></script>
+	<script src="car_race/js/Car.js"></script>
+	<script src="car_race/js/Track.js"></script>
+	<script src="car_race/js/Input.js"></script>
+	<script src="car_race/js/Main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
